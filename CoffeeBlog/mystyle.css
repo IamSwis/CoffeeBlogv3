@@ -1,0 +1,165 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+h1{
+    color: white;
+}
+
+/*utilities*/
+.btn{
+    display: block;
+    width: 180px;
+    background-color: rgb(244, 192, 5);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top : 10px ;
+    padding: 20px;
+}
+
+.font{
+    display: block;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*header*/
+.site-init{
+    background-image:  url(./coffee-images-main/img/banner.jpg );
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-around;/*horizontal*/
+    align-items: center; /*vertical*/
+    height: 200px;
+}
+.secondary-header{
+    background-color: #000;
+    height: 150px;
+}
+/*main*/
+main{
+    width: 60%;
+    margin-right: 20px;
+}
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+h3{
+    margin-top: 20px;
+}
+
+.blog-container p{
+    margin-top: 20px;
+}
+.blog-container .btn{
+    background-color: black;
+}
+
+
+
+/*Contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-inputs{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+.form-inputs .btn{
+    background-color: #000;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+}
+.form-inputs div{
+    margin: 20px;
+}
+.form-inputs input,
+.form-inputs textarea{
+    width: 70%;
+    padding: 5px;
+}
+.form-inputs label{
+    display: inline-block;
+    width: 80px;
+}
+/*Footer*/ 
+
+.footer-widget-container {
+    background-color: #000;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;/*horizontal*/
+    align-items: center; /*vertical*/
+    height: 200px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.footerflex-container{ position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: left;
+    
+    
+}
+
+.footercflex-container{ position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    border: 3px solid #000;
+    color: white;
+    text-align:center;
+}
